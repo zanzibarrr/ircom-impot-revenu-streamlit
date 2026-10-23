@@ -1,0 +1,14 @@
+Jeu de données utilisé :
+L'impôt sur le revenu par collectivité territoriale (IRCOM) — DGFiP / Ministères économiques et financiers
+https://www.data.gouv.fr/datasets/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/
+Licence Ouverte / Open Licence 2.0 (Etalab)
+
+Ressources téléchargées par download_data.py :
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20230228-115014/impotrevenudep-1984-2020.xlsx
+https://static.data.gouv.fr/resources/l-impot-sur-le-revenu-par-collectivite-territoriale/20211227-171921/ircom-2019-revenus-2018.zip
+https://static.data.gouv.fr/resources/l-impot-sur-le-revenu-par-collectivite-territoriale/20211227-172005/ircom-2020-revenus-2019.zip
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20220621-110528/ircom-2021-revenus-2020.zip
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20230608-145433/ircom-2022-revenus-2021.zip
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20240610-082154/ircom-2023-revenus-2022.zip
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20250919-135242/ircom-2024-revenus-2023.zip
+https://static.data.gouv.fr/resources/limpot-sur-le-revenu-par-collectivite-territoriale-ircom/20260526-131537/ircom-2025-revenus-2024.zip
