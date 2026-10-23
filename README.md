@@ -121,7 +121,7 @@ texte sous chaque graphique.
 
 ## Livrables
 
-- Application en ligne (Streamlit Community Cloud) : à compléter
-- Code (GitHub) : à compléter
+- Application en ligne (Streamlit Community Cloud) : https://ircom-impot-revenu-app.streamlit.app
+- Code (GitHub) : https://github.com/zanzibarrr/ircom-impot-revenu-streamlit
 - Vidéo de démonstration : à compléter
 - Storyboard : `storyboard.md`
