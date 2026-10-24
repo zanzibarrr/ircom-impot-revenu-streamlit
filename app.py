@@ -102,7 +102,7 @@ with st.sidebar:
                              key="annee")
 
     perimetre = st.multiselect(t("Périmètre", "Scope"), list(PERIMETRES.keys()), format_func=nom_perimetre,
-                               key=f"perimetre_{L}",
+                               key=f"perimetre_{L}", placeholder=t("Choisir", "Choose"),
                                help=t("Non-résidents = foyers gérés par la direction des non-résidents "
                                       "(à partir de 2006)",
                                       "Non-residents = households handled by the non-residents tax office "
@@ -114,7 +114,7 @@ with st.sidebar:
     lignes_perimetre = panel[panel["perimetre"].isin(perimetre)]
     liste_regions = sorted(lignes_perimetre["region"].dropna().unique())
     regions = st.multiselect(t("Régions (vide = toutes)", "Regions (empty = all)"), liste_regions,
-                             key="regions")
+                             key="regions", placeholder=t("Toutes les régions", "All regions"))
 
     indicateur = st.selectbox(t("Indicateur", "Indicator"), list(INDICATEURS.keys()), format_func=nom_indicateur,
                               key=f"indicateur_{L}")

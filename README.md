@@ -94,7 +94,7 @@ Problèmes trouvés dans les fichiers et ce que j'ai fait :
   (1 444 130 foyers en double). J'ai supprimé les sous-directions pour cette année.
 - **Sous-directions avant 2010** (Paris-Centre, Nord-Lille, Bouches-du-Rhône-Aix...) : 150 lignes regroupées
   dans leur département.
-- **Secret statistique** : 40 cellules « n.c. », laissées vides.
+- **Secret statistique** : 56 cellules « n.c. », laissées vides.
 - **Unités différentes** : milliers d'euros dans les fichiers par tranche, convertis en euros.
 - **3 formats de fichiers par tranche** : dossier `dep/` (2018), zip dans le zip (2019-2021), dossier
   `departemental/` (2022-2024). En 2018 il y a 2 colonnes en plus pour le CIMR (j'utilise l'impôt avant CIMR).
@@ -123,5 +123,6 @@ texte sous chaque graphique.
 
 - Application en ligne (Streamlit Community Cloud) : https://ircom-impot-revenu-app.streamlit.app
 - Code (GitHub) : https://github.com/zanzibarrr/ircom-impot-revenu-streamlit
-- Vidéo de démonstration : à compléter
+- Vidéo de démonstration : `demo_IRCOM_Mickael_LY.mp4`
+- Rapport (en anglais) : `report.pdf`
 - Storyboard : `storyboard.md`

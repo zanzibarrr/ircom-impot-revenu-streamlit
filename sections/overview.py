@@ -73,7 +73,8 @@ def render(tables, filtres):
                 defaut.append(code)
 
         choix = st.multiselect(t("Départements", "Departments"), list(noms.keys()), default=defaut,
-                               format_func=nom_departement, key="deps_compares")
+                               format_func=nom_departement, key="deps_compares",
+                               placeholder=t("Choisir des départements", "Choose departments"))
         lignes_choisies = panel[panel["dep"].isin(choix)]
         fig = courbe(lignes_choisies, "year", cle, titre_y, couleur="dep_name", ruptures=RUPTURES)
 
